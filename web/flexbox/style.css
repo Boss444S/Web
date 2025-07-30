@@ -1,0 +1,47 @@
+ body {
+     background-color: #0030a9;
+     /* Fondo azul */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 50px;
+     padding: 50px;
+ }
+
+ .cajacuadro {
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+     flex-wrap: wrap;
+
+ }
+
+ .cajacirculo {
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ .cuadro {
+     width: 100px;
+     height: 100px;
+     background-color: rgb(75, 130, 3);
+ }
+
+ .circulo {
+     width: 150px;
+     height: 150px;
+     background-color: limegreen;
+     border-radius: 50%;
+     position: relative;
+ }
+
+ .cuadroadentro {
+     width: 70px;
+     height: 70px;
+     background-color: orange;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
