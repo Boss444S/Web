@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+}
+header{
+    background-color: #1A1A1A;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #ffd700;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    align-items: center;
+}
+.perfil {
+    width: 45%;
+}
+.perfil h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.perfil h2 {
+    color: #ffd700;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.perfil p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.btn {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #ffd700;
+    color: #111;
+}
+.info {
+    width: 45%;
+    text-align: center;
+}
+
+.foto img {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    text-align: left;
+    margin-top: 20px;
+}
+.bar {
+    background: #ddd;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: #ffd700;
+}
+.social {
+    margin-top: 20px;
+}
+.social a:hover {
+    background: #ffd700;
+    color: #111;
+}
+footer {
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 5%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer-box {
+    width: 30%;
+}
+
