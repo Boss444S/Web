@@ -1,0 +1,12 @@
+.container{
+    background-color: blue;
+}
+.fila{
+    background-color: aqua;
+}
+.fila2{
+    background-color: blue;
+}
+.columna{
+    border: 2px solid black;
+}
